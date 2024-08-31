@@ -3,6 +3,8 @@ venv/
 .env/
 .venv/
 *.env
+*.db
+
 
 # Arquivos e diretórios de cache do Python
 __pycache__/
