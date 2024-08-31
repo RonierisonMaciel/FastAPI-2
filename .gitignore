@@ -1,0 +1,44 @@
+# Ambiente virtual
+venv/
+.env/
+.venv/
+*.env
+
+# Arquivos e diretórios de cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs e arquivos de saída
+*.log
+*.pot
+*.pyc
+
+# Pastas de configurações e cache do IDE (exemplo: VSCode, PyCharm)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências instaladas e arquivos de pacotes
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+
+# Arquivos e diretórios relacionados ao Elastic Beanstalk
+.elasticbeanstalk/*
+
+# Arquivos de ambiente específico (AWS CLI e EB CLI)
+.aws/
+.ebextensions/
